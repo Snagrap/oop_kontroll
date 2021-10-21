@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <title>Book-Adder V2</title>
+    <title>Book-Adder V5</title>
 </head>
 <body>
     <div class="container">
             <div class="row">
                 <div class="col s12">
-                    <h2>Add Book</h2>
+                    <h2>Lisa raamat</h2>
                     <div class="card">
                         <div class="card-content">
                             <div class="row">
@@ -38,9 +38,8 @@
                                     <th>Author</th>
                                     <th>ISBN#</th>
                                 </tr>
-                                <tbody class="table-list">
-                                    <tr class="collection-item">
-                                    </tr>
+                                <tbody id="book-list" class="table-list">
+                                    
                                 </tbody>
                             </table>
                         </div>
@@ -48,12 +47,10 @@
                 </div>
             </div>
         </div>
-
-        <!-- Compiled and minified JavaScript -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="BOOK.js"></script>
         <script src="LS.js"></script>
         <script src="UI.js"></script>
-        <script src="BOOK.js"></script>
         <script src="app.js"></script>
 </body>
 </html>
